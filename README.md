@@ -170,16 +170,11 @@ class :Data scientist
 
 ---
 
-
 ### **Contribution Journey**
 
 <div align="center">
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CodeBy-Divya&theme=radical)
-
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CodeBy-Divya&theme=dracula"width="80%" />
 </div>
-
-<br>
 
 ---
 
