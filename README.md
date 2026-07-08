@@ -16,23 +16,22 @@ class :Data scientist
         self.role = "Data Analyst |Business Analyst | Data Scientist"
         self.education = "B.S Computer Science and Data Science @ IIT Patna"
         self.interests = [
-            "Multi-Agent Systems",
-            "RAG Pipelines",
-            "LLM Orchestration",
+            "Machine Learning",
+            "Business Intelligence",
+            "Generative AI",
             "NLP & Transformers",
-            "Vector Databases",
-            "Model Context Protocol"
+            "Multi-Agent AI Systems",
+            "Large Language Models (LLMs)"
         ]
 
     def current_focus(self):
         return {
-            "building": "Production-grade RAG & Agentic Systems",
-            "learning": "LangGraph, LangSmith & GenAI",
-            "exploring": "MCP-Style Context Control"
+            "building": "Machine Learning Models & End-to-End Data Science Projects",
+            "learning": "RAG, LLMs & GenAI",
+            "exploring": "AI Tools, Data Science Technologies & Modern Development Workflows"
         }
-
     def future_goals(self):
-        return "Applied AI Engineer solving real-world problems"
+        return "Data scientist that solve real-world problems"
 ```
 
 <br clear="both">
@@ -171,6 +170,7 @@ class :Data scientist
 
 ---
 
+
 ### **Contribution Journey**
 
 <div align="center">
@@ -178,6 +178,9 @@ class :Data scientist
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=CodeBy-Divya&theme=radical)
 
 </div>
+
+<br>
+
 ---
 
 ### **Contributions Pacman**
