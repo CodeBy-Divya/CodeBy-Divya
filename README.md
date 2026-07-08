@@ -12,7 +12,7 @@ src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-
 ```python
 class :Data scientist
     def __init__(self):
-        self.name = "Divya Singh "
+        self.name = "Divya  "
         self.role = "Data Analyst |Business Analyst | Data Scientist"
         self.education = "B.S Computer Science and Data Science @ IIT Patna"
         self.interests = [
@@ -91,7 +91,6 @@ class :Data scientist
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
-[Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 </details>
 
