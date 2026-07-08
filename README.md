@@ -134,17 +134,18 @@ class :Data scientist
 
 
 </details>
----
 
-### **What I'm Actively Engineering**
+<hr>
 
-- Architecting **autonomous multi-agent systems** with LangGraph (planning, parallelism, memory, control flow)
-- Building **production-grade RAG pipelines** with retrieval grounding and LangSmith evaluation
-- Shipping **end-to-end NLP APIs** with FastAPI: model to service to user
-- Engineering **model-agnostic LLM backends** via OpenRouter for cost and latency optimization
-- Orchestrating **LLM context and tools** using MCP-style patterns
+### What I'm Actively Building
 
----
+- Building scalable Machine Learning and Data Science solutions
+- Developing end-to-end Data Analytics and Business Intelligence projects
+- Learning Deep Learning, LLMs, RAG Pipelines, and Generative AI
+- Exploring AI frameworks, agentic workflows, and modern data science tools
+-  Strengthening problem-solving through statistics, analytics, and real-world datasets
+
+<hr>
 
 ### **Certifications**
 
