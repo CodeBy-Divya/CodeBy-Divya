@@ -12,7 +12,7 @@ src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-
 ```python
 class :Data scientist
     def __init__(self):
-        self.name = "Divya  "
+        self.name = "Divya"
         self.role = "Data Analyst |Business Analyst | Data Scientist"
         self.education = "B.S Computer Science and Data Science @ IIT Patna"
         self.interests = [
