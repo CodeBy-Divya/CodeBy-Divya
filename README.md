@@ -1,15 +1,12 @@
 <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=0:4F46E5,50:7C3AED,100:06B6D4&text=Hi%20,%20I'm%20Divya%20Singh&fontColor=ffffff&fontSize=55&font=Montserrat&fontAlignY=35&desc=Aspiring%20Data%20Scientist%20|%20Python%20•%20SQL%20•%20Machine%20Learning&descAlignY=58&descSize=22&animation=twinkling"/>
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="500"/>
-
+  <img src="./Profile%20Banner.png" alt="Divya Banner" width="100%">
 </div>
----
-
-<img align="right" width="390" src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif">
 
 ---
+
+<img align="right" width="390"
+src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif">
+
 ### **About Me**
 
 ```python
