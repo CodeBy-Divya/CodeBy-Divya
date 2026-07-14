@@ -202,7 +202,6 @@ class :Data scientist
 
 </div>
 
-
 ---
 <div align="center">
 
