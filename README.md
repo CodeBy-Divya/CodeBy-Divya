@@ -206,16 +206,15 @@ class :Data scientist
 ---
 <div align="center">
 
-<a href="./Divya.Resume.pdf">
+<a href="./Divya.Resume.pdf" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/📄_Resume-Download-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=1a1a2e" />
 </a>
 &nbsp;
-<a href="https://github.com/CodeBy-Divya">
+<a href="https://github.com/CodeBy-Divya" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/🚀_Portfolio-GitHub-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" />
 </a>
 
 </div>
-
 ---
 <div align="center">
 
