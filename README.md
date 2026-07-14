@@ -204,7 +204,19 @@ class :Data scientist
 
 
 ---
+<div align="center">
 
+<a href="./Divya.Resume.pdf">
+  <img src="https://img.shields.io/badge/📄_Resume-Download-FF6B6B?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=1a1a2e" />
+</a>
+&nbsp;
+<a href="https://github.com/CodeBy-Divya">
+  <img src="https://img.shields.io/badge/🚀_Portfolio-GitHub-A78BFA?style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e" />
+</a>
+
+</div>
+
+---
 <div align="center">
 
 _"Analyzing today, Predicting tomorrow!"_
