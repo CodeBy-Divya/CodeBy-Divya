@@ -21,7 +21,7 @@
 
 <!-- ===================== ABOUT ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FF2E93,100:FF9F1C&height=80&section=header&text=About%20Me&fontSize=40&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FBCFE8,100:FED7AA&height=88&section=header&text=About%20Me&fontSize=46&fontColor=1e293b" width="400"/>
 </div>
 
 <img align="right" width="380" src="https://user-images.githubusercontent.com/74038190/221352975-94759904-aa4c-4032-a8ab-b546efb9c478.gif">
@@ -51,7 +51,7 @@ class DataScientist:
         }
 
     def future_goals(self):
-        return "A data scientist who solves real-world problems"
+        return "An AI Engineer who solves real-world problems"
 ```
 
 <br clear="both">
@@ -60,11 +60,11 @@ class DataScientist:
 
 <!-- ===================== JOURNEY ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:B14AFF,100:3A86FF&height=80&section=header&text=My%20Journey&fontSize=40&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:DDD6FE,100:BFDBFE&height=88&section=header&text=My%20Journey&fontSize=46&fontColor=1e293b" width="400"/>
 </div>
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'20px','cScale0':'#FF2E93','cScale1':'#FF9F1C','cScale2':'#00F5FF','cScaleLabel0':'#ffffff','cScaleLabel1':'#0b0f1a','cScaleLabel2':'#0b0f1a','lineColor':'#FFE600'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'13px','cScale0':'#FBCFE8','cScale1':'#FDE68A','cScale2':'#A7F3D0','cScaleLabel0':'#1e293b','cScaleLabel1':'#1e293b','cScaleLabel2':'#1e293b','lineColor':'#94A3B8'}}}%%
 timeline
     title Divya's Timeline
     2024 : Joined IIT Patna : B.S. Computer Science & Data Science
@@ -79,7 +79,7 @@ timeline
 
 <!-- ===================== EXPERIENCE ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:00F5FF,100:39FF88&height=80&section=header&text=Experience&fontSize=40&fontColor=0b0f1a" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A5F3FC,100:BBF7D0&height=88&section=header&text=Experience&fontSize=46&fontColor=1e293b" width="400"/>
 </div>
 
 <table>
@@ -111,7 +111,7 @@ Data analysis in a government audit environment.
 
 <!-- ===================== HACKATHONS ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FFE600,50:FF9F1C,100:FF2E93&height=80&section=header&text=🏆%20Hackathons&fontSize=40&fontColor=0b0f1a" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FEF08A,50:FED7AA,100:FBCFE8&height=88&section=header&text=Hackathons&fontSize=46&fontColor=1e293b" width="400"/>
 
 <br>
 
@@ -133,7 +133,7 @@ Data analysis in a government audit environment.
 
 <!-- ===================== PROJECTS ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:3A86FF,50:B14AFF,100:FF2E93&height=80&section=header&text=🚀%20Featured%20Projects&fontSize=40&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:BFDBFE,50:DDD6FE,100:FBCFE8&height=88&section=header&text=Featured%20Projects&fontSize=46&fontColor=1e293b" width="400"/>
 </div>
 
 ### 🤖 Gen AI & Agentic AI
@@ -179,75 +179,66 @@ Data analysis in a government audit environment.
 
 <!-- ===================== DIAGRAMS ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:39FF88,50:00F5FF,100:3A86FF&height=80&section=header&text=How%20I%20Build%20AI&fontSize=40&fontColor=0b0f1a" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:BBF7D0,50:A5F3FC,100:BFDBFE&height=88&section=header&text=How%20I%20Build%20AI&fontSize=46&fontColor=1e293b" width="400"/>
 </div>
 
 ### 🧩 Multi-Agent AI System
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'20px','lineColor':'#FFE600','primaryTextColor':'#0b0f1a'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'12px','lineColor':'#94A3B8','primaryTextColor':'#1e293b'},'flowchart':{'nodeSpacing':18,'rankSpacing':22,'padding':6}}}%%
 flowchart LR
-    U([👤 User Goal]):::purple --> P{{🧠 Planner Agent}}:::pink
-    P --> R[🔎 Research Agent]:::cyan
-    P --> T[🛠️ Tool Agent]:::orange
-    P --> W[✍️ Writer Agent]:::green
-    R --> M[(📚 Vector Memory)]:::yellow
-    T --> API[🌐 APIs & Tools]:::yellow
-    M --> C{{✅ Critic Agent}}:::pink
-    API --> C
+    U([User Goal]):::purple --> P{{Planner}}:::pink
+    P --> R[Research]:::blue
+    P --> T[Tools / APIs]:::orange
+    P --> W[Writer]:::green
+    R --> C{{Critic}}:::pink
+    T --> C
     W --> C
-    C -->|needs work| P
-    C -->|approved| O([🎯 Final Output]):::green
-    classDef pink fill:#FF2E93,color:#ffffff,stroke:#ffffff,stroke-width:3px
-    classDef cyan fill:#00F5FF,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef orange fill:#FF9F1C,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef green fill:#39FF88,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef yellow fill:#FFE600,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef purple fill:#B14AFF,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    C -->|revise| P
+    C -->|approved| O([Final Output]):::green
+    classDef pink fill:#FCE7F3,color:#1e293b,stroke:#F9A8D4,stroke-width:1px
+    classDef blue fill:#DBEAFE,color:#1e293b,stroke:#93C5FD,stroke-width:1px
+    classDef orange fill:#FFEDD5,color:#1e293b,stroke:#FDBA74,stroke-width:1px
+    classDef green fill:#D1FAE5,color:#1e293b,stroke:#6EE7B7,stroke-width:1px
+    classDef yellow fill:#FEF3C7,color:#1e293b,stroke:#FCD34D,stroke-width:1px
+    classDef purple fill:#EDE9FE,color:#1e293b,stroke:#C4B5FD,stroke-width:1px
 ```
 
 ### 🧠 RAG Pipeline
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'20px','lineColor':'#00F5FF','primaryTextColor':'#0b0f1a'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'12px','lineColor':'#94A3B8','primaryTextColor':'#1e293b'},'flowchart':{'nodeSpacing':18,'rankSpacing':22,'padding':6}}}%%
 flowchart LR
-    D[📄 Documents]:::orange --> CH[✂️ Chunking]:::yellow
-    CH --> EM[🔢 Embeddings]:::green
-    EM --> VDB[(🗄️ Vector DB)]:::cyan
-    Q([❓ Query]):::purple --> QE[🔢 Query Embedding]:::green
-    QE --> VDB
-    VDB --> TK[📌 Top-K Context]:::yellow
-    TK --> LLM[🤖 LLM]:::pink
-    Q --> LLM
-    LLM --> ANS([💬 Grounded Answer]):::green
-    classDef pink fill:#FF2E93,color:#ffffff,stroke:#ffffff,stroke-width:3px
-    classDef cyan fill:#00F5FF,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef orange fill:#FF9F1C,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef green fill:#39FF88,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef yellow fill:#FFE600,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef purple fill:#B14AFF,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    D[Documents]:::orange --> CH[Chunking]:::yellow --> EM[Embeddings]:::green --> VDB[(Vector DB)]:::blue
+    Q([Query]):::purple --> VDB
+    VDB --> TK[Top-K Context]:::yellow --> LLM[LLM]:::pink --> ANS([Answer]):::green
+    classDef pink fill:#FCE7F3,color:#1e293b,stroke:#F9A8D4,stroke-width:1px
+    classDef blue fill:#DBEAFE,color:#1e293b,stroke:#93C5FD,stroke-width:1px
+    classDef orange fill:#FFEDD5,color:#1e293b,stroke:#FDBA74,stroke-width:1px
+    classDef green fill:#D1FAE5,color:#1e293b,stroke:#6EE7B7,stroke-width:1px
+    classDef yellow fill:#FEF3C7,color:#1e293b,stroke:#FCD34D,stroke-width:1px
+    classDef purple fill:#EDE9FE,color:#1e293b,stroke:#C4B5FD,stroke-width:1px
 ```
 
 ### 🔄 End-to-End ML Workflow
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'20px','lineColor':'#FF2E93','primaryTextColor':'#0b0f1a'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'12px','lineColor':'#94A3B8','primaryTextColor':'#1e293b'},'flowchart':{'nodeSpacing':18,'rankSpacing':22,'padding':6}}}%%
 flowchart LR
-    A[📥 Data]:::cyan --> B[🧹 EDA]:::green --> C[⚙️ Features]:::yellow --> D[🤖 Model]:::pink --> E[📈 Evaluate]:::orange
-    E -->|iterate| C
-    E --> F[🐳 Docker + API]:::purple --> G[☁️ Deploy]:::green
-    classDef pink fill:#FF2E93,color:#ffffff,stroke:#ffffff,stroke-width:3px
-    classDef cyan fill:#00F5FF,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef orange fill:#FF9F1C,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef green fill:#39FF88,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef yellow fill:#FFE600,color:#0b0f1a,stroke:#ffffff,stroke-width:3px
-    classDef purple fill:#B14AFF,color:#ffffff,stroke:#ffffff,stroke-width:3px
+    A[Data]:::blue --> B[EDA]:::green --> C[Features]:::yellow --> D[Model]:::pink --> E[Evaluate]:::orange --> F[API + Docker]:::purple --> G[Deploy]:::green
+    E -.->|iterate| C
+    classDef pink fill:#FCE7F3,color:#1e293b,stroke:#F9A8D4,stroke-width:1px
+    classDef blue fill:#DBEAFE,color:#1e293b,stroke:#93C5FD,stroke-width:1px
+    classDef orange fill:#FFEDD5,color:#1e293b,stroke:#FDBA74,stroke-width:1px
+    classDef green fill:#D1FAE5,color:#1e293b,stroke:#6EE7B7,stroke-width:1px
+    classDef yellow fill:#FEF3C7,color:#1e293b,stroke:#FCD34D,stroke-width:1px
+    classDef purple fill:#EDE9FE,color:#1e293b,stroke:#C4B5FD,stroke-width:1px
 ```
 
 ### 🎯 Where My Time Goes
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'pie1':'#FF2E93','pie2':'#00F5FF','pie3':'#FFE600','pie4':'#39FF88','pieTitleTextSize':'28px','pieSectionTextSize':'20px','pieLegendTextSize':'20px','pieSectionTextColor':'#0b0f1a','pieStrokeColor':'#ffffff','pieOuterStrokeColor':'#ffffff'}}}%%
+%%{init: {'theme':'base','pie':{'useWidth':380},'themeVariables':{'pie1':'#F9A8D4','pie2':'#93C5FD','pie3':'#FDE68A','pie4':'#86EFAC','pieTitleTextSize':'15px','pieSectionTextSize':'12px','pieLegendTextSize':'12px','pieSectionTextColor':'#1e293b','pieStrokeColor':'#ffffff','pieOuterStrokeColor':'#ffffff'}}}%%
 pie showData
     title Current Focus
     "Gen AI & LLMs" : 30
@@ -259,7 +250,7 @@ pie showData
 ### 🌱 What I'm Actively Building
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables':{'fontSize':'20px','cScale0':'#FF2E93','cScale1':'#00F5FF','cScale2':'#FFE600','cScale3':'#39FF88','cScale4':'#B14AFF','cScaleLabel0':'#ffffff','cScaleLabel1':'#0b0f1a','cScaleLabel2':'#0b0f1a','cScaleLabel3':'#0b0f1a','cScaleLabel4':'#ffffff','lineColor':'#ffffff'}}}%%
+%%{init: {'theme':'base','themeVariables':{'fontSize':'12px','cScale0':'#FBCFE8','cScale1':'#BFDBFE','cScale2':'#FDE68A','cScale3':'#BBF7D0','cScale4':'#DDD6FE','cScaleLabel0':'#1e293b','cScaleLabel1':'#1e293b','cScaleLabel2':'#1e293b','cScaleLabel3':'#1e293b','cScaleLabel4':'#1e293b','lineColor':'#94A3B8'}}}%%
 mindmap
   root((Divya))
     Machine Learning
@@ -281,7 +272,7 @@ mindmap
 
 <!-- ===================== TECH ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FF9F1C,100:FF2E93&height=80&section=header&text=Tech%20Arsenal&fontSize=40&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FED7AA,100:FBCFE8&height=88&section=header&text=Tech%20Arsenal&fontSize=46&fontColor=1e293b" width="400"/>
 
 <h3>💻 Languages & Databases</h3>
 <img src="https://skillicons.dev/icons?i=py,js,html,css,r,mysql,postgres,mongodb&perline=8" height="70"/>
@@ -312,7 +303,7 @@ mindmap
 
 <!-- ===================== EDUCATION ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:B14AFF,100:00F5FF&height=80&section=header&text=Education%20%26%20Certifications&fontSize=38&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:DDD6FE,100:A5F3FC&height=88&section=header&text=Education%20%26%20Certifications&fontSize=42&fontColor=1e293b" width="400"/>
 </div>
 
 <table>
@@ -345,7 +336,7 @@ Machine Learning · Deep Learning
 
 <!-- ===================== ANALYTICS ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FF2E93,50:FFE600,100:39FF88&height=80&section=header&text=GitHub%20Analytics&fontSize=40&fontColor=0b0f1a" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:FBCFE8,50:FEF08A,100:BBF7D0&height=88&section=header&text=GitHub%20Analytics&fontSize=46&fontColor=1e293b" width="400"/>
 
 <br>
 
@@ -377,7 +368,7 @@ Machine Learning · Deep Learning
 
 <!-- ===================== CONNECT ===================== -->
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:00F5FF,50:3A86FF,100:B14AFF&height=80&section=header&text=Let's%20Connect&fontSize=40&fontColor=ffffff" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rounded&color=0:A5F3FC,50:BFDBFE,100:DDD6FE&height=88&section=header&text=Let's%20Connect&fontSize=46&fontColor=1e293b" width="400"/>
 
 <br>
 
